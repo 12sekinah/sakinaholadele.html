@@ -1,0 +1,140 @@
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+.heading img {
+    width: 100px;
+}
+.heading button {
+    margin-left: 900px;
+    border: 2px solid hsl(321, 100%, 78%);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: hsl(321, 100%, 78%);
+}
+.build {
+    text-align: center;
+}
+div div, h2 {
+    font-family: "poppins";
+    font-size: 40px;
+}
+.start {
+    width: 200px;
+    height: 35px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+}
+.screen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    display: flex;
+    margin: 0,25%;
+    justify-content: space-between;
+    padding: 30;
+}
+.together {
+    background-color: hsl(207, 100%, 98%);
+    height: 500px;
+    margin-top: -40px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.grow {
+    float: right;
+    width: 600px;
+    object-fit: contain;
+}
+p {
+    font-family: "open sans";
+    font-weight: 400;
+    word-break: 1px;
+}
+.conversation {
+    height: 500px;
+    margin-top: -40px;
+    padding-top: 100px;
+}
+.flowing {
+    float: left;
+    width: 600px;
+    object-fit: contain;
+    padding-right: -50px;
+}
+.users {
+    background-color: hsl(207, 100%, 98%);
+    height: 500px;
+    margin-top: -40px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.people {
+    float: right;
+    width: 600px;
+    object-fit: contain;
+}
+#ready {
+    text-align: center;
+    margin-top: -20px;
+}
+.start {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second {
+    display: flex;
+    margin: 0,20%;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-top: -5px;
+}
+.huddle {
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+}
+.button {
+    display: flex;
+    align-items: center;
+}
+#lorem {
+    margin-top: -20px;
+}
+#empty {
+    width: 250px;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 10px;
+}
+#subscribe {
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+i {
+    margin: 5px;
+}
+@media screen and (min-width:320px)
+{
+    body {
+        margin: auto;
+        max-width: fit-content;
+    }
+}
+@media screen and (max-width:1240px)
+{
+    .heading {padding: auto;}
+}
